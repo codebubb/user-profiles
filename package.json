@@ -1,0 +1,22 @@
+{
+  "name": "accounts",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "express-flash": "0.0.2",
+    "express-session": "^1.16.2",
+    "hbs": "~4.0.4",
+    "http-errors": "~1.6.3",
+    "mongodb": "^3.3.0-beta2",
+    "morgan": "~1.9.1",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0"
+  }
+}
