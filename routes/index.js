@@ -1,7 +1,8 @@
 var express = require('express');
 var router = express.Router();
 
-/* GET home page. */
+// Create custom homepage
+// --------------------------------------------------
 router.get('/', function(req, res, next) {
   const users = req.app.locals.users;
 
@@ -9,5 +10,6 @@ router.get('/', function(req, res, next) {
     res.render('index', { recent } );
   });
 });
+// --------------------------------------------------
 
 module.exports = router;
